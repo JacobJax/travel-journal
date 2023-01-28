@@ -51,6 +51,6 @@
    }
    .card--thumbnail {
       height: 18rem;
-      width: 32rem;
+      min-width: 14em;
    }
 }

@@ -1,7 +1,3 @@
-import mtfuji from '../assets/mtfuji.png'
-import sydney from '../assets/sydney.png'
-import geirange from '../assets/geirange.png'
-
 export default [
    {
       id: 0,
@@ -11,7 +7,7 @@ export default [
       googlemapslink: "#",
       start_date: "12 Jan, 2021",
       end_date: "24 Jan, 2021",
-      imageurl: mtfuji
+      imageurl: "https://source.unsplash.com/WLxQvbMyfas"
    },
    {
       id: 1,
@@ -21,7 +17,7 @@ export default [
       googlemapslink: "#",
       start_date: "27 May, 2021",
       end_date: "8 Jun, 2021",
-      imageurl: sydney
+      imageurl: "https://source.unsplash.com/JmuyB_LibRo"
    },
    {
       id: 2,
@@ -31,6 +27,6 @@ export default [
       googlemapslink: "#",
       start_date: "01 Oct, 2021",
       end_date: "18 Nov, 2021",
-      imageurl: geirange
+      imageurl: "https://source.unsplash.com/3PeSjpLVtLg"
    },
 ]
