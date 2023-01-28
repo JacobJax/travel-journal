@@ -1,0 +1,11 @@
+nav {
+   background-color: #F55A5A;
+   padding: 2rem;
+}
+.nav--items {
+   color: #fff;
+   display: flex;
+   gap: 1rem;
+   margin: 0 auto;
+   max-width: 12rem;
+}
