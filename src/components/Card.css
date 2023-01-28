@@ -19,7 +19,7 @@
 }
 .card--details-header {
    display: flex;
-   align-items: center;
+   align-items:flex-start;
    gap: .8rem;
    font-size: smaller;
 }
@@ -43,7 +43,7 @@
 .travel--description {
    font-size: smaller;
 }
-@media (min-width: 568px) {
+@media (min-width: 678px) {
    .card {
       display: flex;
       gap: 2rem;
@@ -51,6 +51,6 @@
    }
    .card--thumbnail {
       height: 18rem;
-      min-width: 14em;
+      min-width: 15em;
    }
 }
