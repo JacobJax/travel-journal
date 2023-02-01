@@ -4,11 +4,12 @@ import destinations from './destinations'
 
 function Tours() {
 
-   const dest = destinations.map( item => {
+   const dest = destinations.map( (item, i) => {
       return (
          <Card 
             key = { item.id }
             item = { item }
+            underline = { i < (destinations.length - 1) ? true : false }
          />
       )
    })

@@ -1,10 +1,9 @@
 import './Card.css'
-import tempImg from '../assets/mtfuji.png'
 import pin from '../assets/pin.svg'
 
 function Card(props) {
    return (
-      <div className="card">
+      <div className={`card ${props.underline && 'underlined'}`}>
          <div className="card--thumbnail">
             <img src={ props.item.imageurl } alt={ props.item.title } />
          </div>

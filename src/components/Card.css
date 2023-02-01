@@ -1,5 +1,8 @@
 .card {
-   padding: 1rem;
+   padding: 2rem 0;
+}
+.underlined {
+   border-bottom: #b4b1be .7px solid;
 }
 .card a {
    color: #918E9B;
