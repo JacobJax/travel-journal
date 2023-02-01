@@ -1,5 +1,8 @@
 .card {
-   padding: 1rem;
+   padding: 2rem 0;
+}
+.underlined {
+   border-bottom: #b4b1be .7px solid;
 }
 .card a {
    color: #918E9B;
@@ -19,7 +22,7 @@
 }
 .card--details-header {
    display: flex;
-   align-items: center;
+   align-items:flex-start;
    gap: .8rem;
    font-size: smaller;
 }
@@ -43,7 +46,7 @@
 .travel--description {
    font-size: smaller;
 }
-@media (min-width: 568px) {
+@media (min-width: 678px) {
    .card {
       display: flex;
       gap: 2rem;
@@ -51,6 +54,6 @@
    }
    .card--thumbnail {
       height: 18rem;
-      width: 32rem;
+      min-width: 15em;
    }
 }
